@@ -1,5 +1,5 @@
 {
-  "name": "tabitt-temp",
+  "name": "tabitt",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,10 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "framer-motion": "^12.38.0",
+    "html2canvas": "^1.4.1",
     "next": "16.2.2",
+    "next-auth": "^4.24.13",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },

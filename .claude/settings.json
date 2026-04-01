@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --no-import-alias --use-npm)",
+      "Bash(cp -r \"c:/Users/조은원/OneDrive/Desktop/tabitt-temp/.\" \"c:/Users/조은원/OneDrive/Desktop/Tabitt/\")",
+      "Bash(rm -rf \"c:/Users/조은원/OneDrive/Desktop/tabitt-temp\")",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(npx next:*)",
+      "Bash(node -e ':*)"
+    ]
+  }
+}
