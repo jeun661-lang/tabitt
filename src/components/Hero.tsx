@@ -6,8 +6,8 @@ import { useI18n } from '@/lib/i18n/context';
 import AnimalIcon from '@/components/AnimalIcon';
 
 const archItems = [
-  { emoji: '🐕', image: '/images/shiba.png', color: '#E8922F', archY: -30, delay: '0s' },
-  { emoji: '🐱', image: '/images/cat.png', color: '#9B7FD4', archY: -15, delay: '0.5s' },
+  { emoji: '🐕', image: '/images/shiba1.png', color: '#E8922F', archY: -30, delay: '0s' },
+  { emoji: '🐱', image: '/images/cat1.png', color: '#9B7FD4', archY: -15, delay: '0.5s' },
   { emoji: '🦝', color: '#5DAA68', archY: 0, delay: '1s' },
   { emoji: '🦊', color: '#E8734A', archY: -15, delay: '1.5s' },
   { emoji: '🦌', color: '#5B9ECF', archY: -30, delay: '2s' },
