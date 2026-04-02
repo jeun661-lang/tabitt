@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { travelTypes } from '@/data/types';
 import { useI18n } from '@/lib/i18n/context';
+import AnimalIcon from '@/components/AnimalIcon';
 
 export default function TypeDetail() {
   const { t } = useI18n();
@@ -42,7 +43,9 @@ export default function TypeDetail() {
                     boxShadow: '0 2px 12px rgba(44,62,45,0.06)',
                   }}
                 >
-                  <span className="text-2xl">{type.emoji}</span>
+                  <span className="text-2xl flex items-center">
+                    <AnimalIcon emoji={type.emoji} image={type.image} size={48} alt={tt.name} />
+                  </span>
                   <div className="flex-1 min-w-0">
                     <span className="font-semibold text-[15px]" style={{ color: type.accentColor }}>
                       {tt.name}

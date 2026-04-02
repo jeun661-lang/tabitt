@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { useI18n } from '@/lib/i18n/context';
+import AnimalIcon from '@/components/AnimalIcon';
 
 const card = {
   nickname: '모험중인여우',
@@ -61,7 +62,7 @@ export default function Community() {
               className="w-10 h-10 rounded-full flex items-center justify-center text-xl"
               style={{ backgroundColor: `${card.color}18` }}
             >
-              {card.emoji}
+              <AnimalIcon emoji={card.emoji} size={32} alt="여우" />
             </div>
             <div>
               <p className="text-[14px] font-semibold text-[#2C3E2D]">{card.nickname}</p>

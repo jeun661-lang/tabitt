@@ -8,6 +8,7 @@ import { typeMap } from '@/data/types';
 import { useI18n } from '@/lib/i18n/context';
 import ResultCard from '@/components/ResultCard';
 import ShareButtons from '@/components/ShareButtons';
+import AnimalIcon from '@/components/AnimalIcon';
 
 function ResultContent() {
   const searchParams = useSearchParams();
@@ -56,8 +57,9 @@ function ResultContent() {
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6 }} className="text-center mb-8">
         <p className="text-sm text-[#8FA88F] mb-2">{t.result.toneIntro}</p>
         <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, delay: 0.3 }}>
-          <h1 className="text-3xl md:text-4xl font-extrabold mb-1" style={{ color: typeInfo.accentColor }}>
-            {typeInfo.emoji} {tt.name}
+          <h1 className="text-3xl md:text-4xl font-extrabold mb-1 flex items-center justify-center gap-3" style={{ color: typeInfo.accentColor }}>
+            <AnimalIcon emoji={typeInfo.emoji} image={typeInfo.image} size={160} alt={tt.name} />
+            {tt.name}
           </h1>
           <p className="text-lg text-[#8FA88F]">{tt.subTitle}</p>
         </motion.div>

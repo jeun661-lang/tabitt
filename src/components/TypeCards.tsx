@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { travelTypes } from '@/data/types';
 import { useI18n } from '@/lib/i18n/context';
+import AnimalIcon from '@/components/AnimalIcon';
 
 export default function TypeCards() {
   const { t } = useI18n();
@@ -40,7 +41,9 @@ export default function TypeCards() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.08 }}
               >
-                <div className="text-[2.8rem] text-center mb-4 leading-none">{type.emoji}</div>
+                <div className="text-[2.8rem] text-center mb-4 leading-none flex justify-center">
+                  <AnimalIcon emoji={type.emoji} image={type.image} size={80} alt={tt.name} />
+                </div>
                 <h3 className="text-center font-semibold text-[15px] mb-0.5" style={{ color: type.accentColor }}>
                   {tt.name}
                 </h3>

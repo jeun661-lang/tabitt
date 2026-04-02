@@ -6,6 +6,7 @@ export const travelTypes: TypeInfo[] = [
     name: '시바견',
     subTitle: '계획가',
     emoji: '🐕',
+    image: '/images/shiba.png',
     description: '완벽한 동선, 빈틈없는 계획의 달인',
     detailedDescription:
       '여행 전에 이미 여행의 80%가 끝나 있는 타입. 식당 예약 시간에 맞춰 이동하고, 구글맵에 핀 30개 찍어두고, 일행이 "다음 어디 가?" 하면 3초 안에 답이 나온다. 가끔 계획이 틀어지면 살짝 당황하지만, 플랜 B도 이미 준비되어 있다. 여행이 끝나면 가계부 정리까지 하는 사람.',
@@ -21,6 +22,7 @@ export const travelTypes: TypeInfo[] = [
     name: '고양이',
     subTitle: '탐색가',
     emoji: '🐱',
+    image: '/images/cat.png',
     description: '숨은 명소를 파헤치는 정보 수집가',
     detailedDescription:
       '남들 다 가는 곳은 재미없다. 블로그 5페이지, 현지인 리뷰 번역, 구글 스트리트뷰로 가게 외관까지 확인하는 타입. "이거 아는 사람 별로 없을걸?"이 최고의 칭찬. 여행 후에 친구가 "거기 어떻게 알았어?"라고 물어보면 내심 뿌듯하다. 정보를 모으는 과정 자체가 여행의 절반.',

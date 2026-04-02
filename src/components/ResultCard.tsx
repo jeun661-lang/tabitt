@@ -2,6 +2,7 @@
 
 import { TypeInfo } from '@/types';
 import { useI18n } from '@/lib/i18n/context';
+import AnimalIcon from '@/components/AnimalIcon';
 
 interface ResultCardProps {
   typeInfo: TypeInfo;
@@ -23,7 +24,7 @@ export default function ResultCard({ typeInfo, cardRef }: ResultCardProps) {
           Tabitt
         </p>
         <div className="w-28 h-28 mx-auto rounded-full flex items-center justify-center text-5xl mb-4" style={{ backgroundColor: `${typeInfo.accentColor}20` }}>
-          {typeInfo.emoji}
+          <AnimalIcon emoji={typeInfo.emoji} image={typeInfo.image} size={120} alt={tt.name} />
         </div>
         <h2 className="text-2xl font-extrabold mb-1" style={{ color: typeInfo.accentColor }}>
           {tt.name}

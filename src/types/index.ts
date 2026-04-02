@@ -5,6 +5,7 @@ export interface TypeInfo {
   name: string;
   subTitle: string;
   emoji: string;
+  image?: string;
   description: string;
   detailedDescription: string;
   englishName: string;
