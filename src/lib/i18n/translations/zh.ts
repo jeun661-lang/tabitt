@@ -18,18 +18,18 @@ export const zh: Translations = {
     title: '三步开启专属旅程',
     steps: [
       {
-        title: '发现旅行类型',
-        description: '通过12个问题找到你的旅行性格。柴犬？狐狸？小鹿？我们会告诉你你的Tabitt tone。',
+        title: '发现我的旅行类型',
+        description: '回答12个问题，发现你的旅行风格。',
         tag: '免费 · 5分钟',
       },
       {
-        title: '定制旅行攻略',
-        description: '获取与你的类型完美匹配的城市美食、景点和路线推荐。为柴犬准备完美路线，为小鹿准备文艺咖啡清单。',
+        title: '获取AI定制指南',
+        description: 'AI根据你的类型推荐餐厅、景点和路线。',
         tag: '购买旅行通行证后可用',
       },
       {
-        title: '现场即时使用',
-        description: '旅途中犹豫"这里吃什么好？"时，立即获得与你类型匹配的推荐。不用搜索，不用纠结。',
+        title: '旅途中随时提问',
+        description: '吃什么？去哪里？旅途中随时问AI。',
         tag: '即将推出',
       },
     ],

@@ -18,21 +18,21 @@ export const en: Translations = {
     title: 'Your journey starts in 3 steps',
     steps: [
       {
-        title: 'Discover your type',
+        title: 'Find My Travel Type',
         description:
-          'Answer 12 questions to find your travel personality. Shiba? Fox? Deer? We\'ll reveal your Tabitt tone.',
+          'Answer 12 questions to discover your travel style.',
         tag: 'Free · 5 min',
       },
       {
-        title: 'Personalized travel guide',
+        title: 'Get AI-Powered Guide',
         description:
-          'Get city-specific restaurant, spot, and route recommendations tailored to your type. Perfect itineraries for Shiba, cozy café lists for Deer.',
+          'AI recommends restaurants, spots, and routes tailored to your type.',
         tag: 'Available with Trip Pass',
       },
       {
-        title: 'Use it on the go',
+        title: 'Ask Anytime on the Go',
         description:
-          "Wondering 'what should I eat here?' while traveling? Get instant recommendations matched to your type. No searching, no stress.",
+          'What to eat? Where to go? Ask AI anytime during your trip.',
         tag: 'Coming soon',
       },
     ],
