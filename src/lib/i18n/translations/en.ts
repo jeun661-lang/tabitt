@@ -114,6 +114,31 @@ export const en: Translations = {
     browseTypes: 'Browse other types',
     notFound: 'Result not found.',
     retakeButton: 'Take the test again',
+    synergyTitle: '🤝 Synergy UP when traveling together!',
+    synergyShareButton: 'Share with this type friend',
+    synergyShareText: "I'm a {myType} and we'd have the best synergy! Try it too 👉",
+    synergy: {
+      shiba: {
+        title: 'Synergy UP with Fox!',
+        reason: 'Fox will find unexpected gems within your perfect plan',
+      },
+      cat: {
+        title: 'Synergy UP with Tanuki!',
+        reason: 'Tanuki will blaze the trail to every hidden gem you find',
+      },
+      tanuki: {
+        title: 'Synergy UP with Cat!',
+        reason: 'With an intel master organizing your routes, you are unstoppable',
+      },
+      fox: {
+        title: 'Synergy UP with Deer!',
+        reason: 'Deer adds soul to your spontaneous adventures',
+      },
+      deer: {
+        title: 'Synergy UP with Shiba!',
+        reason: 'Let Shiba handle the route while you soak in the vibes',
+      },
+    },
   },
   community: {
     title: 'Tabitt Community',
@@ -185,7 +210,7 @@ export const en: Translations = {
     { text: 'When exchanging currency, I...', options: ['Track exchange rates and pick the best timing', 'Compare fees across different exchange options', 'Already know local ATMs give better rates', 'Exchange roughly what you need at the airport', 'Just use a card — barely exchange anything'] },
     { text: 'When booking a place to stay, I...', options: ['Consider location, routes, and check-in times for the optimal pick', 'Read at least 100 reviews and check actual photos', 'Hunt for unique local guesthouses nobody knows', 'Decent location + clean = booked, done', "Same-day booking based on today's mood is fine"] },
     { text: 'At the duty-free shop before departure, I...', options: ['Shop efficiently from a pre-made list', 'Compare with online prices to check if it\'s really a deal', 'Skip duty-free — buying local is more fun', 'Grab something if it catches your eye', 'Sip coffee at a café while waiting for the flight'] },
-    { text: 'When I arrive at a Japanese airport, I...', options: ['Start heading to the hotel via your pre-researched route', 'Check for hidden airport restaurants or limited-edition stores', 'Skip the transit pass and try moving like a local', 'Step outside and just breathe in the air first', "No rush — explore the airport and take it slow"] },
+    { text: 'When I arrive at my destination airport, I...', options: ['Start heading to the hotel via your pre-researched route', 'Check for hidden airport restaurants or limited-edition stores', 'Skip the transit pass and try moving like a local', 'Step outside and just breathe in the air first', "No rush — explore the airport and take it slow"] },
     { text: 'If a friend suddenly says "let\'s hang out tomorrow"...', options: ['Check tomorrow\'s schedule first', 'Ask "what are we doing?" for specifics', 'Suggest "let\'s try that new place"', '"OK!" — details can wait till tomorrow', '"Sure~ I\'m fine with whatever"'] },
     { text: 'When picking a restaurant, I...', options: ['Pick places rated 4.5+ with lots of reviews', 'Deep-dive blogs for local insider reviews', "Won't rest until you find a place nobody knows", "Walk in if something smells good nearby", 'Good vibes matter more than great food'] },
     { text: 'My most memorable travel moment is...', options: ['That perfect day when everything went as planned', 'Discovering a place nobody knew about', 'When your own route turned out amazing', 'An unexpected happening that became a memory', 'A quiet afternoon doing absolutely nothing'] },

@@ -1,4 +1,4 @@
-import { TypeInfo } from '@/types';
+import { TypeInfo, TravelType, SynergyInfo } from '@/types';
 
 export const travelTypes: TypeInfo[] = [
   {
@@ -83,3 +83,11 @@ export const travelTypes: TypeInfo[] = [
 export const typeMap: Record<string, TypeInfo> = Object.fromEntries(
   travelTypes.map((t) => [t.id, t])
 );
+
+export const synergyMap: Record<TravelType, SynergyInfo> = {
+  shiba: { bestMatch: 'fox' },
+  cat: { bestMatch: 'tanuki' },
+  tanuki: { bestMatch: 'cat' },
+  fox: { bestMatch: 'deer' },
+  deer: { bestMatch: 'shiba' },
+};

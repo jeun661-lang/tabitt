@@ -27,6 +27,10 @@ export interface Question {
   options: QuestionOption[];
 }
 
+export interface SynergyInfo {
+  bestMatch: TravelType;
+}
+
 export interface TestScores {
   shiba: number;
   cat: number;

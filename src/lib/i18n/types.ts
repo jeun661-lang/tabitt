@@ -117,6 +117,10 @@ export interface Translations {
     browseTypes: string;
     notFound: string;
     retakeButton: string;
+    synergyTitle: string;
+    synergyShareButton: string;
+    synergyShareText: string;
+    synergy: Record<string, { title: string; reason: string }>;
   };
   // Community
   community: {

@@ -8,6 +8,7 @@ import { typeMap } from '@/data/types';
 import { useI18n } from '@/lib/i18n/context';
 import ResultCard from '@/components/ResultCard';
 import ShareButtons from '@/components/ShareButtons';
+import SynergyCard from '@/components/SynergyCard';
 import AnimalIcon from '@/components/AnimalIcon';
 
 function ResultContent() {
@@ -78,12 +79,16 @@ function ResultContent() {
         </div>
       </motion.div>
 
-      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.9 }} className="mb-12">
+      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.8 }} className="mb-10">
+        <SynergyCard typeInfo={typeInfo} />
+      </motion.div>
+
+      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 1.0 }} className="mb-12">
         <p className="text-center text-sm text-[#8FA88F] mb-4">{t.result.sharePrompt}</p>
         <ShareButtons typeInfo={typeInfo} onSaveImage={handleSaveImage} />
       </motion.div>
 
-      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 1.1 }} className="max-w-md mx-auto text-center space-y-4">
+      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 1.2 }} className="max-w-md mx-auto text-center space-y-4">
         <div className="p-6 bg-[#FAFAF7] rounded-2xl border border-[#D8E0D8]" style={{ boxShadow: '0 2px 12px rgba(44,62,45,0.06)' }}>
           <p className="font-bold text-sm text-[#2C3E2D] mb-1">{t.result.notifyTitle}</p>
           <p className="text-xs text-[#8FA88F] mb-4">{t.result.notifySubtitle}</p>
